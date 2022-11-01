@@ -10,7 +10,7 @@ nav {
     text-align: left;
 }
 
-.ajuste{
+.ajuste {
     object-fit: cover;
     height: 100px;
     width: 500px;
@@ -22,17 +22,17 @@ nav {
     margin-top: 20px;    
 }
 
-a{
+a {
     margin-right: 10px;
     margin-bottom: 10px;
     text-decoration: none;
     color: black;
     font-weight: 600;
     border-radius: 5px;
-}
 
-a:hover{
+    &:hover {
     background-color: rgb(204, 128, 42);
+    }
 }
 
 body {
@@ -49,7 +49,7 @@ body {
     max-width: 100%;
 }
 
-.contenedor{
+.contenedor {
     padding: 20px;
     border: 1px;
     max-width: 100%;
