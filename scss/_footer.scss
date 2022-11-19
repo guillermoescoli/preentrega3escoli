@@ -1,11 +1,11 @@
-.redes{
+.redes {
 
     width: 100%;
     text-align: center;
     background-color: grey;
 }
 
-.social{
+.social {
 
     padding: 3px;
     width: 40px;
@@ -16,11 +16,12 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 
-        @keyframes destacar {
-            from { }
-            to {
-                transform: scale(1.2);
-            }
+    @keyframes destacar {
+        from {}
+
+        to {
+            transform: scale(1.2);
         }
-    
+    }
+
 }
